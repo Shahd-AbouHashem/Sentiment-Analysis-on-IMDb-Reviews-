@@ -15,18 +15,32 @@ Analyze product reviews to classify sentiment as positive/negative using:
 ✅ TF-IDF vectorization  
 ✅ Model training with hyperparameter tuning  
 ✅ Visualization of key words  
-✅ Performance comparison  
+✅ Performance comparison 
 
-## Usage
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-### Requirements
-- Python 3.6+
-- Libraries in `requirements.txt`
 
-### Usage
-1. Place dataset in `data/` folder
-2. Run main script:
-```bash
-python scripts/task1.py
+python src/train_model.py
+Dataset
+Download from Kaggle and place in data/raw/
+
+#### `.gitignore`
+
+Data files
+data/raw/
+*.csv
+
+Models
+models/*.pkl
+
+IDE
+.idea/
+pycache/
+
+#### `requirements.txt`
+
+nltk==3.7
+scikit-learn==1.0.2
+pandas==1.4.2
+matplotlib==3.5.1
+seaborn==0.11.2
+wordcloud==1.8.1
+joblib==1.1.0
