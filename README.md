@@ -38,9 +38,15 @@ pycache/
 #### `requirements.txt`
 
 nltk==3.7
+
 scikit-learn==1.0.2
+
 pandas==1.4.2
+
 matplotlib==3.5.1
+
 seaborn==0.11.2
+
 wordcloud==1.8.1
+
 joblib==1.1.0
