@@ -1,8 +1,6 @@
 # Natural Language Processing Program Task 1 Level 1 
 ### Elevvo pathways tech intern
 
-# Sentiment Analysis on Product Reviews
-
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0+-orange)
 
@@ -17,10 +15,8 @@ Analyze product reviews to classify sentiment as positive/negative using:
 ✅ Visualization of key words  
 ✅ Performance comparison 
 
-
-python src/train_model.py
-Dataset
-Download from Kaggle and place in data/raw/
+### Dataset
+[Download from Kaggle and place in data/raw/](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
 #### `.gitignore`
 
