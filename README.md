@@ -1,4 +1,4 @@
-# Natural Language Processing Program Task 1 Level 1 
+# Natural Language Processing Program Task 1
 ### Elevvo pathways tech intern
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
